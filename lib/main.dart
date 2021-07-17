@@ -1,12 +1,11 @@
 import 'package:ema_beta/dragons_basic.dart';
 import 'package:flutter/material.dart';
-import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 import 'webViews.dart';
 import 'documents.dart';
-//import 'package:flutter_demos/models/videos_list.dart';
-//import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-void main() {
+void main() async {
+  await dotenv.load(fileName: "assets/.env");
   runApp(MaterialApp(
     title: 'EMA Home',
     theme: ThemeData(fontFamily: 'SF Fonts'),
