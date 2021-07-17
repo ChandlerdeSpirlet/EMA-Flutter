@@ -2,7 +2,6 @@ import 'main.dart';
 import 'package:flutter/material.dart';
 import 'webViews.dart';
 import 'documents.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class dragonsBasic extends StatelessWidget {
   @override
@@ -28,21 +27,6 @@ class dragonsBasic extends StatelessWidget {
               color: Colors.grey,
               child: ElevatedButton(
                 child: Text('Documents'),
-                onPressed: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => Documents_Basic()));
-                },
-              ),
-            ),
-            SizedBox(height: 25.0),
-            Container(
-              height: 100.0,
-              width: double.infinity,
-              color: Colors.grey,
-              child: ElevatedButton(
-                child: Text('Videos'),
                 onPressed: () {
                   Navigator.push(
                       context,
