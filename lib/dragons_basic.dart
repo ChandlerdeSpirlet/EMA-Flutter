@@ -8,7 +8,7 @@ class dragonsBasic extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Webpages'),
+          title: Text('Little Dragons & Basic'),
         ),
         body: SafeArea(
             child: SingleChildScrollView(
