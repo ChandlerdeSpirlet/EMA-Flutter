@@ -14,12 +14,6 @@ class dragonsBasic extends StatelessWidget {
             child: SingleChildScrollView(
                 child: Column(
           children: <Widget>[
-            new Container(
-              decoration: new BoxDecoration(
-                  image: new DecorationImage(
-                      image: new AssetImage("images/dragons.jpg"),
-                      fit: BoxFit.cover)),
-            ),
             SizedBox(height: 25.0),
             Container(
               height: 100.0,
